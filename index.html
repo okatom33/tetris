@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Wendy+One' rel='stylesheet' type='text/css'>
+    <link media="all" rel="stylesheet" href="css/tetris.css" type="text/css" />
+    <script type="text/javascript" src="js/tetoris.js"></script>
+  </head>
+  <body onload="load()" onkeydown = "key(event.keyCode)">
+      <h1>TETRIS</h1>
+      <div id="score">
+          <dl>
+              <dt>score:</dt>
+              <dd id="total">xxxx</dd>
+          </dl>
+      </div>
+      <div style="clear:both;"></div>
+      <div id="moni">
+          <canvas id="target" style="border:5px solid gray" width="200" height="400"></canvas>
+      </div>
+  </body>
+</html>
